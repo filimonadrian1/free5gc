@@ -22,9 +22,13 @@ else
 KUBECTL="microk8s kubectl"
 endif
 
-REGISTRY ?= docker.io/nephio
+# REGISTRY ?= docker.io/nephio
+# PROJECT ?= free5gc-operator
+# TAG ?= latest
+
+REGISTRY ?= prod.harbor.keysight.digital/loadcore
 PROJECT ?= free5gc-operator
-TAG ?= latest
+TAG ?= nephio-r1
 
 # Image URL to use all building/pushing image targets
 ifeq (,$(REGISTRY))
