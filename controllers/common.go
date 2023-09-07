@@ -22,5 +22,6 @@ const (
 	// TODO(jbelamaric): Update to use ImageConfig spec.ImagePaths["upf"]
 	AMFImage = "docker.io/nephio/free5gc-amf:3.2.1"
 	SMFImage = "docker.io/nephio/free5gc-smf:3.2.1"
-	UPFImage = "docker.io/nephio/free5gc-upf:3.2.1"
+	// UPFImage = "docker.io/nephio/free5gc-upf:3.2.1"
+	UPFImage = "prod.harbor.keysight.digital/loadcore/upf:nephio-r1"
 )
